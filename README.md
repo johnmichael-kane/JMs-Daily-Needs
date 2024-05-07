@@ -32,9 +32,8 @@
 
 ### Login
 - Create account functionality  
-- Login Page  
-.Try to just have email login
-.Or maybe something more like rym login?
+- Login Page
+.Auto-email login feature, simple user-defined, or both?  
 - Signup Page  
 .Name  
 .Optional Info for account info  
