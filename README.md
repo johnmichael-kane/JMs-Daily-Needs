@@ -1,12 +1,10 @@
-### My App
-
-To-Do:  
+# To-Do:  
 
 - Web Interface  
 
 ## Topbar  
 
-# Nutrition  
+### Nutrition  
 .Daily Intake (Fats/Carbs/Protein)  
 ..Weekly Chart  
 ..Stats  
@@ -14,7 +12,7 @@ To-Do:
 .User-Defined Limitations (min/max etc...)  
 .User-Defined Calculator (for each ingredient)  
 
-# Metronome
+### Metronome
 .Basic Metronome  
 ..User-Defined Time-Signature  
 ...Show the sheet music off of this  
@@ -31,7 +29,7 @@ To-Do:
 ..User Defined noise  
 ...Plays NOISE for each of them, seperate ones  
 
-# Login
+### Login
 
 
-# Account Info
+### Account Info
