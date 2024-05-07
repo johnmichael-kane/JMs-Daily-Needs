@@ -30,6 +30,12 @@
 ..User Defined noise  
 ...Plays NOISE for each of them, seperate ones  
 
+### Music
+.organize albums
+..add albums
+..create designs
+..User-Based design, make it like a collage of some sorts
+
 ### Login
 - Create account functionality  
 - Login Page
