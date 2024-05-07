@@ -8,9 +8,9 @@
 .Daily Intake (Fats/Carbs/Protein)  
 ..Weekly Chart  
 ..Stats  
-.User-Enter stats (choose day, enter specific stats)  
-.User-Defined Limitations (min/max etc...)  
-.User-Defined Calculator (for each ingredient)  
+- User-Enter stats (choose day, enter specific stats)  
+- User-Defined Limitations (min/max etc...)  
+- User-Defined Calculator (for each ingredient)  
 
 ### Metronome
 .Basic Metronome  
@@ -30,6 +30,14 @@
 ...Plays NOISE for each of them, seperate ones  
 
 ### Login
-
+- Create account functionality  
+- Login Page  
+.Try to just have email login
+.Or maybe something more like rym login?
+- Signup Page  
+.Name  
+.Optional Info for account info  
 
 ### Account Info
+.Update personal info  
+..Includes info like bodyweight, goal bodyweight for later  
