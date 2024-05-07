@@ -1,10 +1,12 @@
 import React from 'react';
 import logo from './logo.svg';
+import Navbar from './Navbar';
 import './App.css';
 
-function App() {
+const App: React.FC = () => {
   return (
     <div className="App">
+      <Navbar />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -21,6 +23,6 @@ function App() {
       </header>
     </div>
   );
-}
+};
 
 export default App;
