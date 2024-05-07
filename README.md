@@ -1,6 +1,7 @@
 # To-Do:  
-
+- Functionality  
 - Web Interface  
+- Mobile Interface  
 
 ## Topbar  
 
