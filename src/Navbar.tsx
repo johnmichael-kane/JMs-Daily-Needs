@@ -1,15 +1,16 @@
-// Navbar.tsx
-
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Navbar: React.FC = () => {
   return (
     <nav className="site-header sticky-top py-1">
       <div className="container d-flex flex-column flex-md-row justify-content-between">
-        <a className="py-2 d-none d-md-inline-block" href="/nutrition">Nutrition</a>
-        <a className="py-2 d-none d-md-inline-block" href="/metronome">Metronome</a>
-        <a className="py-2 d-none d-md-inline-block" href="/about">About Me</a>
-        <a className="py-2 d-none d-md-inline-block" href="/account">Account</a>
+        <Link to="/" className="py-2 d-none d-md-inline-block">Home</Link>
+        <Link to="/nutrition" className="py-2 d-none d-md-inline-block">Nutrition</Link>
+        <Link to="/signup" className="py-2 d-none d-md-inline-block">Sign Up</Link>
+        <Link to="/account" className="py-2 d-none d-md-inline-block">Account</Link>
+        <Link to="/aboutme" className="py-2 d-none d-md-inline-block">About Me</Link>
+        <Link to="/login" className="py-2 d-none d-md-inline-block">Login</Link>
       </div>
     </nav>
   );
