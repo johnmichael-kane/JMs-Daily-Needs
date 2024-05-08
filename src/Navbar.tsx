@@ -4,24 +4,12 @@ import React from 'react';
 
 const Navbar: React.FC = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
-      <div className="container">
-        <div className="collapse navbar-collapse" id="navbarNav">
-          <ul className="navbar-nav">
-            <li className="nav-item">
-              <a className="nav-link" href="/nutrition">Nutrition</a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="/metronome">Metronome</a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="/about">About Me</a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="/account">Account</a>
-            </li>
-          </ul>
-        </div>
+    <nav className="site-header sticky-top py-1">
+      <div className="container d-flex flex-column flex-md-row justify-content-between">
+        <a className="py-2 d-none d-md-inline-block" href="/nutrition">Nutrition</a>
+        <a className="py-2 d-none d-md-inline-block" href="/metronome">Metronome</a>
+        <a className="py-2 d-none d-md-inline-block" href="/about">About Me</a>
+        <a className="py-2 d-none d-md-inline-block" href="/account">Account</a>
       </div>
     </nav>
   );
