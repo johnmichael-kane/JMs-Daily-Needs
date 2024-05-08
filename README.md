@@ -1,3 +1,7 @@
+# Run
+1. Install npm          `npm install`  
+2. Install bootstrap    `npm install boostrap`  
+
 # To-Do:  
 - Functionality  
 - Web Interface  

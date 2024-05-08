@@ -2,10 +2,10 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './Navbar';
 import Home from './Home';
-import SignUp from './signUp';
+import SignUp from './SignUp';
 import Nutrition from './Nutrition';
 import Account from './Account';
-import AboutMe from './aboutMe';
+import AboutMe from './AboutMe';
 import Login from './Login';
 
 const App: React.FC = () => {
