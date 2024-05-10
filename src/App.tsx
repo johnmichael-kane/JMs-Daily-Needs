@@ -5,8 +5,8 @@ import Home from './Home';
 import SignUp from './SignUp';
 import Nutrition from './Nutrition';
 import Account from './Account';
+import ColorCode from './ColorCode';
 import Metronome from './Metronome';
-import AboutMe from './AboutMe';
 import Login from './Login';
 
 const App: React.FC = () => {
@@ -19,7 +19,6 @@ const App: React.FC = () => {
             <Route path="/signup" element={<SignUp />} />
             <Route path="/nutrition" element={<Nutrition />} />
             <Route path="/account" element={<Account />} />
-            <Route path="/aboutme" element={<AboutMe />} />
             <Route path="/metronome" element={<Metronome />} />
             <Route path="/login" element={<Login />} />
           </Routes>
